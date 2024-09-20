@@ -36,7 +36,7 @@ jobs:
       # - uses: oven-sh/setup-bun@v1 # Uncomment this if you're using Bun
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
-        
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
@@ -49,7 +49,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: .vitepress/dist
 
   # Deployment job
   deploy:
