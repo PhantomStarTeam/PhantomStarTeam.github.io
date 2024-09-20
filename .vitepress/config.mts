@@ -27,7 +27,7 @@ export default defineConfig({
     ]
   ],
   themeConfig: {
-    siteTitle: '幻星FIVEM',
+    siteTitle: 'FIVEM文档',
     // logo: 'http://yun.9myi.com/d/icon.png',
     search: {
       provider: 'local',

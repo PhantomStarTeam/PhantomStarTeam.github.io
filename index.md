@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "幻星FIVEM"
+  name: "FIVEM文档"
   text: "PhantomStarTeam"
   tagline: 专注fivem生态
   actions:
     - theme: brand
-      text: 查看文档
-      link: /markdown-examples
+      text: 七月文档
+      link: /七月
     - theme: alt
-      text: 关于我们
-      link: /api-examples
+      text: 莽狗文档
+      link: /mango
 
 features:
   - title: 七月插件
