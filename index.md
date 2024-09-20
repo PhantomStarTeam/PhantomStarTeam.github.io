@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 七月文档
-      link: /七月
+      link: /qiyue
     - theme: alt
       text: 莽狗文档
       link: /mango
