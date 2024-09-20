@@ -2,40 +2,18 @@
 outline: deep
 ---
 
-# Runtime API Examples
+# 什么是Mango工具包?
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+Mango工具包是一款专为`Fivem服务器`开发者使用的工具包。
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+它包含了`AI助手`，`代码去墙`，`查后门`等等多种能力
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+## 页面预览
 
-const { theme, page, frontmatter } = useData()
-</script>
+![启动页](./pic.png)
 
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
+<VPTeamMembers size="small" :members="members" />
+<!-- ### Theme Data
 <pre>{{ theme }}</pre>
 
 ### Page Data
@@ -46,4 +24,4 @@ const { site, theme, page, frontmatter } = useData()
 
 ## More
 
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata). -->

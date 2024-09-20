@@ -72,35 +72,48 @@ export default defineConfig({
       // }
     ],
 
-    sidebar: [
-      {
-        text: '指南',
-        items: [
-          { text: '什么是Mango工具包？', link: '/what-is-mango-tools' },
-          { text: '开始使用', link: '/getting-started' }
-        ]
-      },
-      {
-        text: '功能介绍',
-        items: [
-          { text: '代码去墙', link: '/wall' },
-          { text: '查后门', link: '/door' },
-          { text: 'banner横幅制作', link: '/banner' },
-          { text: '莽狗AI助手', link: '/ai' },
-          { text: '插件汉化', link: '/locale' }
-        ]
-      },
-      {
-        text: '更新日志',
-        items: [
-          { text: 'ChangeLog', link: '/changelog' },
-          // { text: '查后门', link: '/door' },
-          // { text: 'banner横幅制作', link: '/banner' },
-          // { text: '莽狗AI助手', link: '/ai' },
-          // { text: '插件汉化', link: '/locale' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/qiyue/': [
+        {
+          text: '七月文档库',
+          items: [
+            { text: '七月文档库', link: '/qiyue/index.md' },
+            { text: '七月文档库', link: '/qiyue/index.md' },
+            { text: '七月文档库', link: '/qiyue/index.md' },
+            { text: '七月文档库', link: '/qiyue/index.md' }
+          ]
+        }
+      ],
+      '/mango/': [
+        {
+          text: '指南',
+          items: [
+            { text: '什么是Mango工具包？', link: '/mango/index' },
+            { text: '开始使用', link: '/mango/getting-started' }
+          ]
+        },
+        {
+          text: '功能介绍',
+          items: [
+            { text: '代码去墙', link: '/mango/wall' },
+            { text: '查后门', link: '/mango/door' },
+            { text: 'banner横幅制作', link: '/mango/banner' },
+            { text: '莽狗AI助手', link: '/mango/ai' },
+            { text: '插件汉化', link: '/mango/locale' }
+          ]
+        },
+        {
+          text: '更新日志',
+          items: [
+            { text: 'ChangeLog', link: '/mango/changelog' },
+            // { text: '查后门', link: '/door' },
+            // { text: 'banner横幅制作', link: '/banner' },
+            // { text: '莽狗AI助手', link: '/ai' },
+            // { text: '插件汉化', link: '/locale' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: {
@@ -109,7 +122,7 @@ export default defineConfig({
     ],
     footer: {
       // message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present Mango'
+      copyright: 'Copyright © 2024-present PhantomStarTeam'
     },
     lastUpdated: {
       text: '最后更新',
