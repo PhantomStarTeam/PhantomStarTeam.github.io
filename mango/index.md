@@ -12,16 +12,3 @@ Mango工具包是一款专为`Fivem服务器`开发者使用的工具包。
 
 ![启动页](./pic.png)
 
-<VPTeamMembers size="small" :members="members" />
-<!-- ### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata). -->

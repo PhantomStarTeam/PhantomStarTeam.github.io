@@ -78,9 +78,6 @@ export default defineConfig({
           text: '七月文档库',
           items: [
             { text: '七月文档库', link: '/qiyue/index.md' },
-            { text: '七月文档库', link: '/qiyue/index.md' },
-            { text: '七月文档库', link: '/qiyue/index.md' },
-            { text: '七月文档库', link: '/qiyue/index.md' }
           ]
         }
       ],
